@@ -1,0 +1,127 @@
+{
+  "id": "9b0608ed-6848-48ef-bbd2-04c615f1875b",
+  "version": "2.0",
+  "name": "DevOpsFinal",
+  "url": "https://mydevopsdemo.loca.lt/AmitAmitBar/",
+  "tests": [{
+    "id": "98d3ff93-309c-4aaa-b482-52e97568ee78",
+    "name": "Validate Our Website",
+    "commands": [{
+      "id": "5591be31-66b9-4a97-8667-f0de81ad98ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://mydevopsdemo.loca.lt/AmitAmitBar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b36795e-23c5-4f92-b53b-3be7d3c9147f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "947x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2941109-acd3-425b-85a5-aff9bb7ef8b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1)", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Amit Kriaf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b96b16c9-3295-4237-b97f-9d4450b36263",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1)", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Amit Kriaf')]", "xpath:innerText"]
+      ],
+      "value": "Amit Kriaf"
+    }, {
+      "id": "27accd79-d6c3-4a1f-ad75-d83518a604a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d414638-6a8f-4bdf-9627-ed1ae0514930",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7eb4a68-08d7-4385-8fdc-b83b4da97b5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Moshe"
+    }, {
+      "id": "b1124d6d-b7e4-4373-925c-5a1095671f65",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f163b60b-bea3-43d3-a3f4-e5012446846e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, Moshe! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c51fc0-c74f-4568-a95c-028922c48faa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, Moshe! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": "Hello, Moshe! Thanks for visiting our project page."
+    }]
+  }],
+  "suites": [{
+    "id": "8e12eabc-67b1-4997-b641-b8ed3628b940",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mydevopsdemo.loca.lt/AmitAmitBar/"],
+  "plugins": []
+}
