@@ -1,0 +1,218 @@
+{
+  "id": "91f30427-2a30-4af1-a139-2502e91b21fa",
+  "version": "2.0",
+  "name": "Step7finalProject",
+  "url": "https://mydevopsdemo.loca.lt",
+  "tests": [{
+    "id": "09030153-4ab2-4618-8a2b-c2f3217d3387",
+    "name": "step7Selenium",
+    "commands": [{
+      "id": "9cb2237f-43a5-444a-925e-2062161e045e",
+      "comment": "",
+      "command": "open",
+      "target": "/AmitAmitBar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b30373f-c9f8-43c0-a3f4-d5aa87c97bcc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1453x865",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47554d8e-8629-4bae-a899-8782c6830643",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Team Members:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "718d0363-f793-4400-922c-75646d04b43d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Team Members:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7049f90-fdc3-46c1-adbc-fcf7ffed2ec9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Team Members:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86234206-3ad3-4345-8a19-5ce0f67cbc18",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Team Members:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "506345b5-8403-4781-9b2f-a252a9dcc936",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Team Members:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f575e2-0f8e-4c38-a2d6-c7ffee43f74b",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7fccc07-aacb-4fa1-8709-d4c57a51d0c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AmitBar"
+    }, {
+      "id": "8a41db6e-9eac-4469-bf83-4e50d7fce394",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f785fbff-9622-45d5-a1cf-08cf4833e0bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f4c131-a088-47f8-8bb8-69aac38fc72b",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e723e9-e2f8-4e4b-b402-127e80b5ddce",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e7305d-fd61-42ca-aa97-1d79a3f28292",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65da1d8-ca99-4200-9693-da33d602486c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ff6700b-752c-4490-9ebf-4e5e24b98c30",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, AmitBar! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3679f40-8c7d-494a-9992-ac1ccbe727d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49f632a-d296-4bcf-8963-520ddd158464",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Click here to view our project documentation (coming soon)",
+      "targets": [
+        ["linkText=Click here to view our project documentation (coming soon)", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to view our project documentation (coming soon)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to view our project documentation (coming soon)')]", "xpath:innerText"]
+      ],
+      "value": "Click here to view our project documentation (coming soon)"
+    }]
+  }],
+  "suites": [{
+    "id": "d7a672e2-f879-4262-bf6f-81cf87d98766",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["09030153-4ab2-4618-8a2b-c2f3217d3387"]
+  }],
+  "urls": ["https://mydevopsdemo.loca.lt/"],
+  "plugins": []
+}
