@@ -1,0 +1,174 @@
+{
+  "id": "52954ea2-7ebe-422f-a724-fe50e47bbb37",
+  "version": "2.0",
+  "name": "Step7finalProjectDevOps",
+  "url": "http://34.58.208.53:8080",
+  "tests": [{
+    "id": "348f0265-1751-4927-885b-d11b83f34037",
+    "name": "test01",
+    "commands": [{
+      "id": "a8a2be91-564f-4623-bd2d-996a8f66546e",
+      "comment": "",
+      "command": "open",
+      "target": "/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd5a443-c466-4f5e-aff6-d63f1e4933d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1453x865",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "763ea700-8e2d-4d4b-9ac2-cb5dad0b2b28",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8478cfaf-1da3-46af-a316-9efb5c5318e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "moshe"
+    }, {
+      "id": "2344b2aa-cabb-4cf8-8ad7-a858ec118569",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99664864-e918-4249-ac5a-3ef67afb67a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to view our project documentation (coming soon)",
+      "targets": [
+        ["linkText=Click here to view our project documentation (coming soon)", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to view our project documentation (coming soon)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to view our project documentation (coming soon)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6145c2-af19-4585-a3e6-da200cda4f9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, moshe! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a15052-9a07-4b12-a71d-806b5cc92ea5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, moshe! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": "Hello, moshe! Thanks for visiting our project page."
+    }, {
+      "id": "49cb3685-37eb-48ce-8f60-9a00b8447c50",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f115f77-2b32-4ce2-88b1-15b96226fc55",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e2503e-1bc8-44d6-ab96-68afaeb5989d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df9456d1-7642-430a-8ae9-c82883c29aa1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a203f7-3c15-4ff9-8fa8-4fa28754b767",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb2d197-7eca-496b-b0b2-03291dbd9010",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": "DevOps Final Project - Semester B @ MTA"
+    }]
+  }],
+  "suites": [{
+    "id": "9bc1d287-c9ef-49fd-9df1-35effaf0ef33",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["348f0265-1751-4927-885b-d11b83f34037"]
+  }],
+  "urls": ["http://34.58.208.53:8080/"],
+  "plugins": []
+}
