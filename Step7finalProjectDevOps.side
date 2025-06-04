@@ -1,0 +1,213 @@
+{
+  "id": "7e8aec4d-03e4-4e0f-880a-294bb46f59ba",
+  "version": "2.0",
+  "name": "DevOpsFinalProjectStep7",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "dc46847d-e78b-4a6e-8e30-d0ab9bb85638",
+    "name": "test0011",
+    "commands": [{
+      "id": "5fa0984d-92a7-459f-be49-c20563867d9b",
+      "comment": "",
+      "command": "open",
+      "target": "/AmitAmitBar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25f8a312-0f17-4d10-9402-03d60a589f99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1312x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59e98fdd-5678-4029-96b9-d71ccfc8402c",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "869f71cf-e8d3-4a88-971e-e5c0af52af8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad54365a-2b75-489a-b9c1-0ed01ca8c625",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41849f64-3a01-4d1f-95dd-0b6a60eba493",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=username", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "moshe"
+    }, {
+      "id": "73e35499-7764-45e7-aa12-661bc848c0b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b5b51a2-cb36-4d08-af7a-c6ff82d76f46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to view our project documentation (coming soon)",
+      "targets": [
+        ["linkText=Click here to view our project documentation (coming soon)", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to view our project documentation (coming soon)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to view our project documentation (coming soon)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b631be-626a-49b6-aec5-14d4bc1f2796",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4620f6-64ad-493b-ae0c-dd7676a7d3ef",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, moshe! Thanks for visiting our project page.')]", "xpath:innerText"]
+      ],
+      "value": "Hello, moshe! Thanks for visiting our project page."
+    }, {
+      "id": "0b37da5c-0379-4cfa-a538-65b4ddc8c417",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a1d73e7-fb58-470d-ab2e-56b0770f6134",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bf2feb-b806-4732-8f98-e77e6d41f313",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7476cf9f-a25f-4ad4-b1c5-bf60c9cd059f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e4de29-0e4b-45e9-9932-2682f67e5ba6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91651535-80bd-4bc8-9194-a038555db010",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f2d4228-7b03-4906-aafe-e433b8ba1d13",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps Final Project - Semester B @ MTA')]", "xpath:innerText"]
+      ],
+      "value": "DevOps Final Project - Semester B @ MTA"
+    }, {
+      "id": "92d46670-c98e-4566-912c-2b5efa8fcbac",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd0f0af2-a829-4ba3-82ec-6398467d3854",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc46847d-e78b-4a6e-8e30-d0ab9bb85638"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
