@@ -26,7 +26,7 @@
         String name = request.getParameter("username");
         if (name != null && !name.trim().isEmpty()) {
     %>
-        <h2>Helllo, <%= name %>! Thanks for visiting our project page.</h2>
+        <h2>Hello, <%= name %>! Thanks for visiting our project page.</h2>
     <%
         }
     %>
