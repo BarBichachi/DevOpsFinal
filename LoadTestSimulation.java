@@ -1,4 +1,5 @@
 import java.time.Duration;
+
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
@@ -7,23 +8,28 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class LoadTestSimulation extends Simulation {
 
-    HttpProtocolBuilder httpProtocol = http
-        .baseUrl("http://34.58.208.53:8080")
-        .inferHtmlResources();
+    private HttpProtocolBuilder httpProtocol = http
+        .baseUrl("http://localhost:8080")
+        .inferHtmlResources()
+        .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8")
+        .acceptEncodingHeader("gzip, deflate")
+        .acceptLanguageHeader("en-US,en;q=0.9,he;q=0.8")
+        .userAgentHeader("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36");
 
-    ScenarioBuilder scn = scenario("LoadTestSimulation")
+    private ScenarioBuilder scn = scenario("LoadTestSimulation")
         .exec(
-            http("Request Home Page")
-            .get("/index.jsp")
+            http("Load_Homepage_Stress")
+                .get("/AmitAmitBar/")
         );
 
     {
-        setUp(
+            setUp(
             scn.injectOpen(
-                rampUsersPerSec(1).to(750).during(Duration.ofMinutes(2)), 
-                constantUsersPerSec(750).during(Duration.ofMinutes(2)),    
-                rampUsersPerSec(750).to(1).during(Duration.ofMinutes(1))  
+                rampUsersPerSec(1).to(350).during(Duration.ofMinutes(2)), 
+                constantUsersPerSec(350).during(Duration.ofMinutes(2)),    
+                rampUsersPerSec(350).to(1).during(Duration.ofMinutes(1))  
             )
         ).protocols(httpProtocol);
+
     }
 }
