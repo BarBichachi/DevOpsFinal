@@ -25,10 +25,10 @@ public class StressTestSimulation extends Simulation {
     {
             setUp(
       scn.injectOpen(
-        rampUsersPerSec(25).to(600).during(Duration.ofMinutes(1)),    
-        rampUsersPerSec(600).to(50).during(Duration.ofMinutes(1)),   
-        rampUsersPerSec(50).to(600).during(Duration.ofMinutes(1)),    
-        rampUsersPerSec(600).to(0).during(Duration.ofMinutes(1))      
+        rampUsersPerSec(25).to(500).during(Duration.ofMinutes(1)),    
+        rampUsersPerSec(500).to(50).during(Duration.ofMinutes(1)),   
+        rampUsersPerSec(50).to(500).during(Duration.ofMinutes(1)),    
+        rampUsersPerSec(500).to(0).during(Duration.ofMinutes(1))      
       ).protocols(httpProtocol)
     );
 

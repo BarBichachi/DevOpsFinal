@@ -25,9 +25,9 @@ public class LoadTestSimulation extends Simulation {
     {
             setUp(
             scn.injectOpen(
-                rampUsersPerSec(1).to(350).during(Duration.ofMinutes(2)), 
-                constantUsersPerSec(350).during(Duration.ofMinutes(2)),    
-                rampUsersPerSec(350).to(1).during(Duration.ofMinutes(1))  
+                rampUsersPerSec(1).to(380).during(Duration.ofMinutes(2)), 
+                constantUsersPerSec(380).during(Duration.ofMinutes(2)),    
+                rampUsersPerSec(380).to(1).during(Duration.ofMinutes(1))  
             )
         ).protocols(httpProtocol);
 

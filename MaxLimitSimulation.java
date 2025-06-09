@@ -37,7 +37,6 @@ public class MaxLimitSimulation extends Simulation {
 
     {
 
-        setUp(scn.injectClosed‎(rampConcurrentUsers(0).to(500).during(Duration.ofSeconds(60))).protocols(httpProtocol));
+        setUp(scn.injectClosed‎(rampConcurrentUsers(0).to(421).during(Duration.ofSeconds(60))).protocols(httpProtocol));
     }
 }
-
